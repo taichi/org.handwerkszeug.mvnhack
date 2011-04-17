@@ -8,7 +8,7 @@
 	<version>0.0.3</version>
 	<packaging>jar</packaging>
 	<name>mvnhack</name>
-	<url>http://code.google.com/p/werkzeugkasten/</url>
+	<url>http://github.com/taichi/org.handwerkszeug.mvnhack</url>
 	<issueManagement>
 		<system></system>
 		<url></url>
@@ -168,12 +168,12 @@
 	</build>
 	<scm>
 		<connection>
-			scm:svn:http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.mvnhack
+			scm:git:git@github.com:taichi/org.handwerkszeug.mvnhack.git
 		</connection>
 		<developerConnection>
-			scm:svn:https://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.mvnhack
+			scm:git:git@github.com:taichi/org.handwerkszeug.mvnhack.git
 		</developerConnection>
-		<url></url>
+		<url>https://github.com/taichi/org.handwerkszeug.mvnhack</url>
 	</scm>
 	<repositories>
 		<repository>
