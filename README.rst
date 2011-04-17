@@ -93,15 +93,15 @@ this case, use HTTP proxy access to remote repositories and use addtional reposi
 
 dependencies.yml example.
 
-
+::
     flatten : true
     destination : ./lib
     proxy : http://proxy.example.com:8080
     http.nonProxyHosts : localhost
-
+    
     repositories :
       - http://repository.codehaus.org/
       - https://repository.jboss.org/nexus/content/repositories/releases/
-
+    
     dependencies :
       - org.yaml snakeyaml 1.8
