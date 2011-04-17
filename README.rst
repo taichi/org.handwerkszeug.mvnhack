@@ -32,6 +32,8 @@ Usage
     * destination directry.
     * default is execution directory.
 
+Yaml based dependency
+------------------------------------
 
     java -jar mvnhack.jar [yml]
 
