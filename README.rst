@@ -106,7 +106,7 @@ dependencies.yml example::
     
     repositories :
       - http://repository.codehaus.org/
-      - https://repository.jboss.org/nexus/content/repositories/releases/
+      - http://repository.jboss.org/nexus/content/groups/public
     
     dependencies :
       - org.yaml snakeyaml 1.8
