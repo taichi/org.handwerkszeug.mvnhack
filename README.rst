@@ -78,12 +78,13 @@ in this case,
 you get slf4j-simple-1.4.3.jar ,slf4j-api-1.4.3.jar and some source.jars into execution directory.
 
 in this case,
+
 * *groupId* is org.slf4j
 * *artifactId* is slf4j-simple
 * *version* is 1.4.3
 * *flat* is off
 * *destination* jars are under ./foo with repository structures.
-* you will be get two kind of artifacts, because slf4j-simple depends slf4j-api.
+    * you will be get two kind of artifacts, because slf4j-simple depends slf4j-api.
 
 
 ------
