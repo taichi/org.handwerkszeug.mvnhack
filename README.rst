@@ -52,10 +52,19 @@ VM Arguments
 
 Implicit Repositories
 -----------------------------
-  * if execution directory has directory that name is *repository*, use as local repository.
-  * if directory of *user.home* has m2/repository, use it.
-  * [http://repo1.maven.org/maven2/ maven central repository]
+* if execution directory has directory that name is *repository*, use as local repository.
+* if directory of *user.home* has m2/repository, use it.
+* [http://repo1.maven.org/maven2/ maven central repository]
 
+==========
+Examples 
+==========
+    java -jar mvnhack-0.0.2.jar commons-httpclient 2.0.2
 
-
+you get commons-httpclient-2.0.2.jar ,commons-logging-1.0.3.jar and some source.jars into execution directory.
+in this case,
+* *groupId* is skipped
+* *artifactId* is commons-httpclient
+* *version* is 2.0.2
+* you will be get two kind of artifacts, because commons-httpclient depends commons-logging.
 
