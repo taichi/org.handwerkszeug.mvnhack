@@ -130,3 +130,6 @@ dependencies are whitespace separated string sequence contains 2 or 3 value like
 
 
 you want to know any other yaml syntax. read `YAML_syntax <http://code.google.com/p/snakeyaml/wiki/Documentation#YAML_syntax>`_
+
+
+this software under `Apache License 2.0 <http://www.apache.org/licenses/LICENSE-2.0.txt>`_
