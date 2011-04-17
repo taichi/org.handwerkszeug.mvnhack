@@ -29,7 +29,7 @@ Usage
     * destination directry.
     * default is execution directory.
 
-Yaml based dependency
+Yaml based dependency resolving
 ------------------------------------
 
     java -jar mvnhack.jar [yml]
