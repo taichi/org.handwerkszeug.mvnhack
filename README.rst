@@ -85,13 +85,17 @@ in this case,
 * *destination* jars are under ./foo with repository structures.
 * you will be get two kind of artifacts, because slf4j-simple depends slf4j-api.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+------
 
     java -Dproxy=http://proxy.example.com:8080 -Drepository=http://public.planetmirror.com/pub/maven/, -jar mvnhack-0.0.2.jar commons-httpclient 2.0.2
 
 this case, use HTTP proxy access to remote repositories and use addtional repository.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------
+
+dependencies written in yaml
+-------------------------------------------
 
 dependencies.yml example::
 
