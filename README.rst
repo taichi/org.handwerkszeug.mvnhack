@@ -124,4 +124,4 @@ dependencies are whitespace separated string sequence contains 2 or 3 value like
 
 
 
-you want to know any other yaml syntax. read [http://code.google.com/p/snakeyaml/wiki/Documentation#YAML_syntax YAML_syntax]
+you want to know any other yaml syntax. read `YAML_syntax <http://code.google.com/p/snakeyaml/wiki/Documentation#YAML_syntax>`_
