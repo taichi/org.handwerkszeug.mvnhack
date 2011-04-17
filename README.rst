@@ -38,9 +38,9 @@ Usage
 * yaml
     * get libraries based on yaml. skip this and current dir contains dependencies.yml then use that file.
 
-
+==========
 More Options
-==============
+==========
 
 VM Arguments
 ----------------------
