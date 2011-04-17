@@ -69,3 +69,39 @@ in this case,
 * *version* is 2.0.2
 * you will be get two kind of artifacts, because commons-httpclient depends commons-logging.
 
+------------
+
+    java -jar mvnhack-0.0.2.jar org.slf4j slf4j-simple 1.4.3 flat=off dest=./foo
+
+you get slf4j-simple-1.4.3.jar ,slf4j-api-1.4.3.jar and some source.jars into execution directory.
+
+in this case,
+* *groupId* is org.slf4j
+* *artifactId* is slf4j-simple
+* *version* is 1.4.3
+* *flat* is off
+* *destination* jars are under ./foo with repository structures.
+* you will be get two kind of artifacts, because slf4j-simple depends slf4j-api.
+
+------------
+
+    java -Dproxy=http://proxy.example.com:8080 -Drepository=http://public.planetmirror.com/pub/maven/, -jar mvnhack-0.0.2.jar commons-httpclient 2.0.2
+
+this case, use HTTP proxy access to remote repositories and use addtional repository.
+
+------------
+
+dependencies.yml example.
+
+
+    flatten : true
+    destination : ./lib
+    proxy : http://proxy.example.com:8080
+    http.nonProxyHosts : localhost
+
+    repositories :
+      - http://repository.codehaus.org/
+      - https://repository.jboss.org/nexus/content/repositories/releases/
+
+    dependencies :
+      - org.yaml snakeyaml 1.8
