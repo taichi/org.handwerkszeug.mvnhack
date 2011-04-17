@@ -84,7 +84,7 @@ in this case,
 * *version* is 1.4.3
 * *flat* is off
 * *destination* jars are under ./foo with repository structures.
-    * you will be get two kind of artifacts, because slf4j-simple depends slf4j-api.
+* you will be get two kind of artifacts, because slf4j-simple depends slf4j-api.
 
 
 ------
@@ -128,7 +128,6 @@ and define dependency.
 
 
 dependencies are whitespace separated string sequence contains 2 or 3 value like base usage.
-
 
 
 you want to know any other yaml syntax. read `YAML_syntax <http://code.google.com/p/snakeyaml/wiki/Documentation#YAML_syntax>`_
