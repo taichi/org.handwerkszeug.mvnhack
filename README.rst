@@ -64,6 +64,7 @@ Examples
     java -jar mvnhack-0.0.2.jar commons-httpclient 2.0.2
 
 you get commons-httpclient-2.0.2.jar ,commons-logging-1.0.3.jar and some source.jars into execution directory.
+
 in this case,
 
 * *groupId* is skipped
