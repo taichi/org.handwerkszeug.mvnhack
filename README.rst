@@ -91,7 +91,7 @@ this case, use HTTP proxy access to remote repositories and use addtional reposi
 
 ------------
 
-dependencies.yml example.::
+dependencies.yml example::
 
     flatten : true
     destination : ./lib
@@ -104,3 +104,24 @@ dependencies.yml example.::
     
     dependencies :
       - org.yaml snakeyaml 1.8
+
+this case
+
+override 4 parameters.
+
+* flatten override flat.
+* destination override dest.
+* proxy and http.nonProxyHosts override JVM environment
+
+
+and use 2 external repositories.
+
+
+and define dependency. 
+
+
+dependencies are whitespace separated string sequence contains 2 or 3 value like base usage.
+
+
+
+you want to know any other yaml syntax. read [http://code.google.com/p/snakeyaml/wiki/Documentation#YAML_syntax YAML_syntax]
