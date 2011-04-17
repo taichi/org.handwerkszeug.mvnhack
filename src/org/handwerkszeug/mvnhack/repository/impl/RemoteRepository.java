@@ -12,7 +12,6 @@ import org.handwerkszeug.mvnhack.repository.ArtifactBuilder;
 import org.handwerkszeug.mvnhack.repository.Context;
 import org.handwerkszeug.mvnhack.repository.Repository;
 
-
 public class RemoteRepository implements Repository {
 
 	protected String baseUrl;
@@ -35,8 +34,8 @@ public class RemoteRepository implements Repository {
 		stb.append(ArtifactUtil.toPom(groupId, artifactId, version));
 		URL url = UrlUtil.toURL(stb.toString());
 		try {
-			return builder.build(context, context.open(ArtifactUtil.create(
-					groupId, artifactId, version), url));
+			return builder.build(context, context.open(
+					ArtifactUtil.create(groupId, artifactId, version), url));
 		} catch (IORuntimeException e) {
 		}
 		return null;
@@ -46,9 +45,11 @@ public class RemoteRepository implements Repository {
 	public Set<URL> getLocation(Artifact artifact) {
 		Set<URL> urls = new HashSet<URL>();
 		urls.add(toURL(ArtifactUtil.toPath(artifact)));
+		urls.add(toURL(ArtifactUtil.toPath(artifact, ".jar")));
 		urls.add(toURL(ArtifactUtil.toPath(artifact, Constants.POM)));
-		urls.add(toURL(ArtifactUtil.toPath(artifact, "-sources."
-				+ artifact.getType())));
+		urls.add(toURL(ArtifactUtil.toPath(artifact,
+				"-sources." + artifact.getType())));
+		urls.add(toURL(ArtifactUtil.toPath(artifact, "-sources.jar")));
 		return urls;
 	}
 
