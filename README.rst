@@ -6,7 +6,7 @@ Introduction
 ==============
 
 mvnhack can download libraries from maven2 repositories without maven2.
-download mvnhack `here <http://werkzeugkasten.googlecode.com/files/mvnhack-0.0.3.jar> _
+download mvnhack `here <http://werkzeugkasten.googlecode.com/files/mvnhack-0.0.3.jar>` _
 
 
 Requirements
