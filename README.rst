@@ -44,5 +44,18 @@ More Options
 
 VM Arguments
 ----------------------
+* proxy
+    * Proxy URL. auto detect HTTP or SOCKS proxy.
+    * cf. [http://java.sun.com/j2se/1.5.0/docs/guide/net/properties.html Networking Properties]
+* repository
+    * comma separated maven2 remote/local additional repository URLs.
+
+Implicit Repositories
+-----------------------------
+  * if execution directory has directory that name is *repository*, use as local repository.
+  * if directory of *user.home* has m2/repository, use it.
+  * [http://repo1.maven.org/maven2/ maven central repository]
+
+
 
 
