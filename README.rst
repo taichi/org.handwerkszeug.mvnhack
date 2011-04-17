@@ -12,8 +12,9 @@ Requirements
 JavaSE 6(tested by 1.6.0_17) or more
 
 
-Usage
----------
+Basic Usage
+-------------------
+
     java -jar mvnhack.jar [groupId] [artifactId] [version] flat=[on/off] dest=[path]
 
 * groupId
@@ -125,7 +126,7 @@ and use 2 external repositories.
 and define dependency. 
 
 
-dependencies are whitespace separated string sequence contains 2 or 3 value like base usage.
+dependencies are whitespace separated string sequence contains 2 or 3 value like basic usage.
 
 
 you want to know any other yaml syntax. read `YAML_syntax <http://code.google.com/p/snakeyaml/wiki/Documentation#YAML_syntax>`_
