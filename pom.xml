@@ -107,7 +107,7 @@
 						<index>true</index>
 						<manifest>
 							<mainClass>
-								werkzeugkasten.mvnhack.Main
+								org.handwerkszeug.mvnhack.Main
 							</mainClass>
 						</manifest>
 					</archive>
