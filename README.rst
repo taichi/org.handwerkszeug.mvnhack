@@ -91,9 +91,8 @@ this case, use HTTP proxy access to remote repositories and use addtional reposi
 
 ------------
 
-dependencies.yml example.
+dependencies.yml example.::
 
-::
     flatten : true
     destination : ./lib
     proxy : http://proxy.example.com:8080
