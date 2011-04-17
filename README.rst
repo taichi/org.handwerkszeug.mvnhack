@@ -63,6 +63,7 @@ Examples
 
 you get commons-httpclient-2.0.2.jar ,commons-logging-1.0.3.jar and some source.jars into execution directory.
 in this case,
+
 * *groupId* is skipped
 * *artifactId* is commons-httpclient
 * *version* is 2.0.2
